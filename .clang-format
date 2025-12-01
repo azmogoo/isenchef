@@ -1,0 +1,7 @@
+---
+Language: C
+BasedOnStyle: Linux
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 100
+Standard: C11

@@ -1,0 +1,1 @@
+XOR this string with key 123.
