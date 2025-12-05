@@ -1,10 +1,10 @@
 /**
- * @file isenchef.h
- * @brief main header file for isenchef tool
+ * @file bitkitchen.h
+ * @brief main header file for bitkitchen tool
  */
 
-#ifndef ISENCHEF_H
-#define ISENCHEF_H
+#ifndef BITKITCHEN_H
+#define BITKITCHEN_H
 
 #include <stddef.h>
 #include <stdint.h>
@@ -84,5 +84,5 @@ int write_file(const char *filename, format_t format, const buffer_t *buffer);
  */
 void free_buffer(buffer_t *buffer);
 
-#endif /* ISENCHEF_H */
+#endif /* BITKITCHEN_H */
 

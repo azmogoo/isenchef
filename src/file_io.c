@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../include/isenchef.h"
+#include "../include/bitkitchen.h"
 #include "../include/encoders.h"
 
 int read_file(const char *filename, format_t format, buffer_t *buffer) {
@@ -23,6 +23,7 @@ int read_file(const char *filename, format_t format, buffer_t *buffer) {
         perror("opening input file");
         return -1;
     }
+
 
     /* get file size */
     fseek(file, 0, SEEK_END);

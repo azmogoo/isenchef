@@ -1,7 +1,7 @@
 Param()
 
 $root = Split-Path -Parent $MyInvocation.MyCommand.Definition
-$exe = Join-Path $root "cmake-build-debug\isenchef.exe"
+$exe = Join-Path $root "cmake-build-debug\bitkitchen.exe"
 
 if (-not (Test-Path $exe)) {
     Write-Host "`nPlease build the project first (`cmake --build` in `cmake-build-debug`).`n"
@@ -32,7 +32,7 @@ $actions = @(
     @{ label = "Round-trip hex" ; action = $null }
 )
 
-Write-Host "`nisenchef quick menu`n"
+Write-Host "`nbitkitchen quick menu`n"
 for ($i = 0; $i -lt $actions.Count; $i++) {
     Write-Host (" [{0}] {1}" -f ($i + 1), $actions[$i].label)
 }

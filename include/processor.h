@@ -1,7 +1,7 @@
 #ifndef PROCESSOR_H
 #define PROCESSOR_H
 
-#include "isenchef.h"
+#include "bitkitchen.h"
 
 /**
  * @brief Process the given configuration (read, transform, write)

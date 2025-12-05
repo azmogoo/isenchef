@@ -1,9 +1,9 @@
 /**
  * @file main.c
- * @brief main entry point for isenchef tool
+ * @brief main entry point for bitkitchen tool
  */
 
-#include "../include/isenchef.h"
+#include "../include/bitkitchen.h"
 #include "../include/processor.h"
 
 int main(int argc, char *argv[]) {

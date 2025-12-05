@@ -1,4 +1,4 @@
-# isenchef
+# bitkitchen
 
 Outil en ligne de commande pour manipuler des fichiers : conversion de formats, chiffrement et transformations. Inspiré de CyberChef.
 
@@ -25,7 +25,7 @@ Le menu guide pas à pas. Exemple :
 ```
 PS> .\run-menu.ps1
 
-isenchef quick menu
+bitkitchen quick menu
 
  [1] hex conversion
  [2] base64 conversion
@@ -46,7 +46,7 @@ choose output format (1 bytes, 2 hex, 3 base64): 2
 ### Ligne de commande
 
 ```bash
-./isenchef --in <fichier> --input-format <format> [--action <action>] --out <fichier> --output-format <format>
+./bitkitchen --in <fichier> --input-format <format> [--action <action>] --out <fichier> --output-format <format>
 ```
 
 **Formats** : `bytes`, `hex`, `base64`
@@ -60,17 +60,17 @@ choose output format (1 bytes, 2 hex, 3 base64): 2
 **Exemples** :
 ```bash
 #conversion hex
-./cmake-build-debug/isenchef.exe --in test_files/hex_input.txt --input-format bytes --out test_files/hex_output.txt --output-format hex
+./cmake-build-debug/bitkitchen.exe --in test_files/hex_input.txt --input-format bytes --out test_files/hex_output.txt --output-format hex
 
 #chiffrement césar
-./cmake-build-debug/isenchef.exe --in test_files/caesar_input.txt --input-format bytes --action CAESAR --caesar-shift=3 --out test_files/caesar_output.txt --output-format bytes
+./cmake-build-debug/bitkitchen.exe --in test_files/caesar_input.txt --input-format bytes --action CAESAR --caesar-shift=3 --out test_files/caesar_output.txt --output-format bytes
 
 #xor
-./cmake-build-debug/isenchef.exe --in test_files/xor_input.txt --input-format bytes --action XOR --xorkey=123 --out test_files/xor_output.txt --output-format bytes
+./cmake-build-debug/bitkitchen.exe --in test_files/xor_input.txt --input-format bytes --action XOR --xorkey=123 --out test_files/xor_output.txt --output-format bytes
 ```
 
 ## Aide
 
 ```bash
-./cmake-build-debug/isenchef.exe --help
+./cmake-build-debug/bitkitchen.exe --help
 ```

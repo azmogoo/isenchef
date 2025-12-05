@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../include/isenchef.h"
+#include "../include/bitkitchen.h"
 
 /* convert format string to enum */
 static int parse_format(const char *str) {

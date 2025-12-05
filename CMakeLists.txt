@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27)
-project(isenchef C)
+project(bitkitchen C)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
@@ -23,7 +23,7 @@ set(SOURCES
 include_directories(include)
 
 # Create executable
-add_executable(isenchef ${SOURCES})
+add_executable(bitkitchen ${SOURCES})
 
 # Set output name
-set_target_properties(isenchef PROPERTIES OUTPUT_NAME "isenchef")
+set_target_properties(bitkitchen PROPERTIES OUTPUT_NAME "bitkitchen")
